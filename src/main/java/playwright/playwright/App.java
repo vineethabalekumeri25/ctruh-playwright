@@ -40,9 +40,9 @@ public class App {
         // Click the element using JavaScript to avoid interception
         locator.evaluate("element => element.click()");
 
-        // Pause for 2 seconds
+        // Pause for 5 seconds
         try {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
